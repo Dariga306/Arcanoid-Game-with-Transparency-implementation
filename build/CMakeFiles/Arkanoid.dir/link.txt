@@ -1,3 +1,0 @@
-D:\make\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Arkanoid.dir/objects.a
-D:\make\mingw64\bin\ar.exe qc CMakeFiles\Arkanoid.dir/objects.a @CMakeFiles\Arkanoid.dir\objects1.rsp
-D:\make\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\Arkanoid.dir/objects.a -Wl,--no-whole-archive -o Arkanoid.exe -Wl,--out-implib,libArkanoid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Arkanoid.dir\linkLibs.rsp
