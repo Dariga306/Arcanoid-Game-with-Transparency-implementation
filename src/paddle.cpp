@@ -3,7 +3,7 @@
 Paddle::Paddle(float x, float y) {
     shape.setSize({100.f, 15.f});
     shape.setFillColor(sf::Color::Blue);
-    shape.setOrigin(shape.getSize() / 2.f); // центр платформы
+    shape.setOrigin(shape.getSize() / 2.f); 
     shape.setPosition(x, y);
 }
 

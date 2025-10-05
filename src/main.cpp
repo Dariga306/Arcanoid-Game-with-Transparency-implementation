@@ -14,7 +14,6 @@ int main() {
                 window.close();
         }
 
-        // Управление стрелками
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
             paddle.moveLeft();
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
