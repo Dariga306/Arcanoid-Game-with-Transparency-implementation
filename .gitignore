@@ -1,0 +1,22 @@
+# Build files
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executables
+*.exe
+*.obj
+*.o
+*.a
+*.dll
+
+# IDE configs
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Other
+*.log
