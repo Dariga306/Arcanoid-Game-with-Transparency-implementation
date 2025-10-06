@@ -12,4 +12,9 @@ public:
     void moveLeft();
     void moveRight();
     void draw(sf::RenderWindow& window);
+
+    float getX() const { return shape.getPosition().x; }
+    float getY() const { return shape.getPosition().y; }
+    float getWidth() const { return shape.getSize().x; }
+    float getHeight() const { return shape.getSize().y; }
 };

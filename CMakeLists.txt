@@ -10,6 +10,8 @@ add_executable(Arkanoid
     src/main.cpp
     src/paddle.cpp
     src/paddle.hpp
+    src/ball.cpp
+    src/ball.hpp
 )
 
 target_link_libraries(Arkanoid PRIVATE sfml-system sfml-window sfml-graphics)
